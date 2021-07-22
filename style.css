@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar{
+    position: fixed;  
+    border: 1px solid whitesmoke;
+     
+}
+
+.navbar-container{
+    justify-items: right;
+}
+
+ul{
+    margin: 0;
+    padding: 0; 
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li:active{
+    color: orange;
+}
+
+li:hover{
+    color: orange;
+}
+
+li{
+    display: inline-flex;
+    /* padding: 20px; */
+    padding: 8px;
+    float: left;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#what{
+    padding: 100px;
+    height: 800px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+#main{
+    padding: 100px;
+    height: 800px;
+    text-align: center;
+    background-color: yellowgreen;
+    color: white;
+}
+
+#jobs{
+    padding: 100px;
+    height: 800px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+#news{
+    padding: 100px;
+    height: 800px;
+    text-align: center;
+    background-color: #06acac;
+    color: white;
+}
